@@ -1,7 +1,7 @@
 from kitchen.ingredients.Ingredient import LemonJuice, LemonZest
 from kitchen import Rosemary
-from kitchen.utensils import Pan, Plate, Bowl, BakingTray, PieDish, Oven, Fridge
-from kitchen.ingredients import Butter, Egg, Salt, Flour, Milk, Sugar, BakingPowder, ChocolateChips, Apple, Lemon, Cinnamon, Cornstarch, Water
+from kitchen.utensils import Plate, Bowl, PieDish, Oven, Fridge
+from kitchen.ingredients import Butter, Egg, Salt, Flour, Sugar, Apple, Lemon, Cinnamon, Cornstarch, Water
 
 # Put some water into the fridge
 fridge = Fridge.use()
